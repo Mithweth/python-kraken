@@ -127,3 +127,5 @@ class Kraken(object):
           'API-Sign': base64.b64encode(signature.digest())
         }
         return self._query(urlpath, data, headers)
+
+API = Kraken
